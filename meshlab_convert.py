@@ -6,7 +6,7 @@
 # python3 meshlab_convert.py <input_mesh> <output_mesh>
 
 # Batch convert PLY files in a directory to OBJ files:
-# find ./ -name *.ply -exec python3 meshlab_convert.py {} {}.obj \;
+# find ./ -name '*.ply' -exec python3 meshlab_convert.py {} {}.obj \;
 
 import sys
 from os.path import exists, dirname
